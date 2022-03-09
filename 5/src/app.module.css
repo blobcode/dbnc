@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(20px + 5vmin);
+  color: white;
+}
+
+.bg {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub {
+  font-size: calc(7px + 1vmin);
+  margin-bottom: auto;
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border: 1px solid #1d1c1d4d;
+  font-weight: 700;
+  background: #fff;
+  padding: 0 12px 1px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: rgb(29, 28, 29);
+  height: 36px;
+  transition: all 80ms linear;
+}
+
+.input {
+  display: inline-block;
+  outline: 0;
+  border: 1px solid #1d1c1d4d;
+  background: #fff;
+  padding: 0 12px 1px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: rgb(29, 28, 29);
+  height: 33px;
+  margin-right: 5px;
+}
